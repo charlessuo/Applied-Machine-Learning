@@ -28,7 +28,7 @@ def main():
             plt.scatter(parameters[i],parameters[j],c=colors)
             plt.xlabel(para_descr[i] + '/cm')
             plt.ylabel(para_descr[j] + '/cm')
-            plt.title("Plot of " + para_descr[i]+" VS " +para_descr[j])
+            plt.title(" Plot of " + para_descr[i]+" VS " +para_descr[j])
             plt.savefig(para_descr[i]+" vs "+para_descr[j]+".png")
 
 if __name__ == '__main__':
